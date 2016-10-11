@@ -18,6 +18,8 @@
 		AD58B6D21DAD1C1F000574A0 /* test.html in Resources */ = {isa = PBXBuildFile; fileRef = AD58B6CF1DAD1C1F000574A0 /* test.html */; };
 		AD58B6D31DAD1C1F000574A0 /* WebBridge.js in Resources */ = {isa = PBXBuildFile; fileRef = AD58B6D01DAD1C1F000574A0 /* WebBridge.js */; };
 		AD58B6D51DAD2418000574A0 /* WebBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD58B6D41DAD2418000574A0 /* WebBridge.swift */; };
+		AD58B6D81DAD3C49000574A0 /* BaseAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD58B6D71DAD3C49000574A0 /* BaseAPI.swift */; };
+		AD58B6DA1DAD3C66000574A0 /* APIProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD58B6D91DAD3C66000574A0 /* APIProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		AD58B6CF1DAD1C1F000574A0 /* test.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = test.html; sourceTree = "<group>"; };
 		AD58B6D01DAD1C1F000574A0 /* WebBridge.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = WebBridge.js; sourceTree = "<group>"; };
 		AD58B6D41DAD2418000574A0 /* WebBridge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebBridge.swift; sourceTree = "<group>"; };
+		AD58B6D71DAD3C49000574A0 /* BaseAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseAPI.swift; sourceTree = "<group>"; };
+		AD58B6D91DAD3C66000574A0 /* APIProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,7 @@
 		AD58B6B21DAD178E000574A0 /* SLWebBridge */ = {
 			isa = PBXGroup;
 			children = (
+				AD58B6D61DAD3C40000574A0 /* API */,
 				AD58B6CD1DAD1C1F000574A0 /* html */,
 				AD58B6CA1DAD1827000574A0 /* WebView */,
 				AD58B6C71DAD17E6000574A0 /* Bridge */,
@@ -104,6 +109,15 @@
 				AD58B6D01DAD1C1F000574A0 /* WebBridge.js */,
 			);
 			path = html;
+			sourceTree = "<group>";
+		};
+		AD58B6D61DAD3C40000574A0 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				AD58B6D71DAD3C49000574A0 /* BaseAPI.swift */,
+				AD58B6D91DAD3C66000574A0 /* APIProtocol.swift */,
+			);
+			path = API;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -187,6 +201,8 @@
 				AD58B6D51DAD2418000574A0 /* WebBridge.swift in Sources */,
 				AD58B6B61DAD178E000574A0 /* ViewController.swift in Sources */,
 				AD58B6B41DAD178E000574A0 /* AppDelegate.swift in Sources */,
+				AD58B6DA1DAD3C66000574A0 /* APIProtocol.swift in Sources */,
+				AD58B6D81DAD3C49000574A0 /* BaseAPI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

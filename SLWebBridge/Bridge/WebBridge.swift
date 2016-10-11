@@ -80,7 +80,7 @@ class WebBridge: NSObject, UIWebViewDelegate {
     func webView(_ webView: UIWebView, didFailLoadWithError error: Error) {
         
         print("didFailLoadWithError, %@", error)
-
+        
         if let webViewDelegate = webViewDelegate {
             if webViewDelegate.responds(to: #selector(webView(_:didFailLoadWithError:))) {
                 webViewDelegate.webViewDidFinishLoad!(webView)
