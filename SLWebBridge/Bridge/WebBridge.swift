@@ -93,6 +93,8 @@ class WebBridge: NSObject, UIWebViewDelegate {
             // 处理自定义scheme，scheme会被自动转成小写，即使js中写成大写
             if scheme == "slwebbridge" {
                 print("call native")
+                
+                // slwebbridge://ui/push?p={a:'xxx', b:1}&cb=callback
                 return false
             }
         } else if let webViewDelegate = webViewDelegate, webViewDelegate.responds(to: #selector(webView(_:shouldStartLoadWith:navigationType:))) {
