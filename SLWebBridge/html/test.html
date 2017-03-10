@@ -9,8 +9,11 @@
 	<script src="bridge.js"></script>
 	<script>
 		function test() {
-			SLWebBridge._openURL("slwebbridge://log");
-		}	
+            SLWebBridge.invokeClientMethod("ui","test",{a:5}, function(result) {
+                                           alert(result.a);
+                                           });
+<!--			SLWebBridge._openURL("slwebbridge://module/method?p={\"a\":2}&callback=9999");-->
+		}
 	</script>
 </body>
 </html>

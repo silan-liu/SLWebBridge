@@ -31,4 +31,13 @@ class SLWebView: UIWebView {
     private func commonInit() {
         webBridge = WebBridge(webView: self, webViewDelegate: nil)
     }
+    
+    //MARK: Register API
+    func registerWebAPI(_ module: String, _ api: WebAPIProtocol) {
+        webBridge?.registerWebAPI(module, api)
+    }
+    
+    func unregisterWebAPI(_ module: String) {
+        webBridge?.unregisterWebAPI(module)
+    }
 }

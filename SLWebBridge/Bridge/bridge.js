@@ -8,14 +8,16 @@ SLWebBridge = {
         i.src = url;
         document.body.appendChild(i);
         
-        //destory the iframe
-        i.parentNode.removeChild(i);
+        if (i && i.parentNode) {
+            //destory the iframe
+            i.parentNode.removeChild(i);
+        }
         
         return returnValue;
     },
     
     invokeClientMethod: function(module, name, parameters, callback) {
-        var url = 'yyapi://' + module + '/' + name + '?p=' + encodeURIComponent(JSON.stringify(parameters || {}));
+        var url = 'slwebbridge://' + module + '/' + name + '?p=' + encodeURIComponent(JSON.stringify(parameters || {}));
         if (callback) {
             var name;
             if (typeof callback == "function") {
