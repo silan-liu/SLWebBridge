@@ -1,5 +1,5 @@
 //
-//  UIWebAPI.swift
+//  DataWebAPI.swift
 //  SLWebBridge
 //
 //  Created by liusilan on 17/3/10.
@@ -8,12 +8,13 @@
 
 import Foundation
 
-class UIWebAPI: BaseWebAPI {
+class DataWebAPI: BaseWebAPI {
     func test(_ params:[String: AnyObject]?, callback: SLCallback?) {
-        print("test UIWebAPI");
+        print("test DataWebAPI");
         if let params = params {
             print("params:\(params)")
         }
+        
         callback?(["a":22])
     }
 }

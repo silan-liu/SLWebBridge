@@ -7,27 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AD4ED9041E728AF300CBD889 /* bridge.js in Resources */ = {isa = PBXBuildFile; fileRef = AD4ED9031E728AF300CBD889 /* bridge.js */; };
-		AD4ED9071E728C7F00CBD889 /* URLExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4ED9061E728C7F00CBD889 /* URLExtension.swift */; };
-		AD4ED9121E72B86900CBD889 /* BaseWebAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4ED90F1E72B86900CBD889 /* BaseWebAPI.swift */; };
 		AD4ED9131E72B86900CBD889 /* UIWebAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4ED9101E72B86900CBD889 /* UIWebAPI.swift */; };
-		AD4ED9141E72B86900CBD889 /* WebAPIProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4ED9111E72B86900CBD889 /* WebAPIProtocol.swift */; };
+		AD4ED9251E72B9A200CBD889 /* BaseWebAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4ED91C1E72B9A200CBD889 /* BaseWebAPI.swift */; };
+		AD4ED9261E72B9A200CBD889 /* WebAPIProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4ED91D1E72B9A200CBD889 /* WebAPIProtocol.swift */; };
+		AD4ED9271E72B9A200CBD889 /* bridge.js in Resources */ = {isa = PBXBuildFile; fileRef = AD4ED91F1E72B9A200CBD889 /* bridge.js */; };
+		AD4ED9281E72B9A200CBD889 /* WebBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4ED9201E72B9A200CBD889 /* WebBridge.swift */; };
+		AD4ED9291E72B9A200CBD889 /* URLExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4ED9221E72B9A200CBD889 /* URLExtension.swift */; };
+		AD4ED92A1E72B9A200CBD889 /* SLWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4ED9241E72B9A200CBD889 /* SLWebView.swift */; };
+		AD4ED92C1E72B9CE00CBD889 /* DataWebAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4ED92B1E72B9CE00CBD889 /* DataWebAPI.swift */; };
 		AD58B6B41DAD178E000574A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD58B6B31DAD178E000574A0 /* AppDelegate.swift */; };
 		AD58B6B61DAD178E000574A0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD58B6B51DAD178E000574A0 /* ViewController.swift */; };
 		AD58B6B91DAD178E000574A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD58B6B71DAD178E000574A0 /* Main.storyboard */; };
 		AD58B6BB1DAD178E000574A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD58B6BA1DAD178E000574A0 /* Assets.xcassets */; };
 		AD58B6BE1DAD178E000574A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD58B6BC1DAD178E000574A0 /* LaunchScreen.storyboard */; };
-		AD58B6CC1DAD1833000574A0 /* SLWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD58B6CB1DAD1833000574A0 /* SLWebView.swift */; };
 		AD58B6D21DAD1C1F000574A0 /* test.html in Resources */ = {isa = PBXBuildFile; fileRef = AD58B6CF1DAD1C1F000574A0 /* test.html */; };
-		AD58B6D51DAD2418000574A0 /* WebBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD58B6D41DAD2418000574A0 /* WebBridge.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		AD4ED9031E728AF300CBD889 /* bridge.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = bridge.js; sourceTree = "<group>"; };
-		AD4ED9061E728C7F00CBD889 /* URLExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLExtension.swift; sourceTree = "<group>"; };
-		AD4ED90F1E72B86900CBD889 /* BaseWebAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseWebAPI.swift; sourceTree = "<group>"; };
 		AD4ED9101E72B86900CBD889 /* UIWebAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIWebAPI.swift; sourceTree = "<group>"; };
-		AD4ED9111E72B86900CBD889 /* WebAPIProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebAPIProtocol.swift; sourceTree = "<group>"; };
+		AD4ED91C1E72B9A200CBD889 /* BaseWebAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseWebAPI.swift; sourceTree = "<group>"; };
+		AD4ED91D1E72B9A200CBD889 /* WebAPIProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebAPIProtocol.swift; sourceTree = "<group>"; };
+		AD4ED91F1E72B9A200CBD889 /* bridge.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = bridge.js; sourceTree = "<group>"; };
+		AD4ED9201E72B9A200CBD889 /* WebBridge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebBridge.swift; sourceTree = "<group>"; };
+		AD4ED9221E72B9A200CBD889 /* URLExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLExtension.swift; sourceTree = "<group>"; };
+		AD4ED9241E72B9A200CBD889 /* SLWebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SLWebView.swift; sourceTree = "<group>"; };
+		AD4ED92B1E72B9CE00CBD889 /* DataWebAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataWebAPI.swift; sourceTree = "<group>"; };
 		AD58B6B01DAD178E000574A0 /* SLWebBridge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SLWebBridge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD58B6B31DAD178E000574A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AD58B6B51DAD178E000574A0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,9 +39,7 @@
 		AD58B6BA1DAD178E000574A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD58B6BD1DAD178E000574A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AD58B6BF1DAD178E000574A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AD58B6CB1DAD1833000574A0 /* SLWebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SLWebView.swift; sourceTree = "<group>"; };
 		AD58B6CF1DAD1C1F000574A0 /* test.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = test.html; sourceTree = "<group>"; };
-		AD58B6D41DAD2418000574A0 /* WebBridge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebBridge.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,22 +53,58 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		AD4ED9051E728C7000CBD889 /* Extension */ = {
+		AD4ED90E1E72B86900CBD889 /* WebAPI */ = {
 			isa = PBXGroup;
 			children = (
-				AD4ED9061E728C7F00CBD889 /* URLExtension.swift */,
+				AD4ED9101E72B86900CBD889 /* UIWebAPI.swift */,
+				AD4ED92B1E72B9CE00CBD889 /* DataWebAPI.swift */,
+			);
+			path = WebAPI;
+			sourceTree = "<group>";
+		};
+		AD4ED91A1E72B9A200CBD889 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				AD4ED91B1E72B9A200CBD889 /* Base */,
+				AD4ED91E1E72B9A200CBD889 /* Bridge */,
+				AD4ED9211E72B9A200CBD889 /* Extension */,
+				AD4ED9231E72B9A200CBD889 /* WebView */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		AD4ED91B1E72B9A200CBD889 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				AD4ED91C1E72B9A200CBD889 /* BaseWebAPI.swift */,
+				AD4ED91D1E72B9A200CBD889 /* WebAPIProtocol.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		AD4ED91E1E72B9A200CBD889 /* Bridge */ = {
+			isa = PBXGroup;
+			children = (
+				AD4ED91F1E72B9A200CBD889 /* bridge.js */,
+				AD4ED9201E72B9A200CBD889 /* WebBridge.swift */,
+			);
+			path = Bridge;
+			sourceTree = "<group>";
+		};
+		AD4ED9211E72B9A200CBD889 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				AD4ED9221E72B9A200CBD889 /* URLExtension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
 		};
-		AD4ED90E1E72B86900CBD889 /* WebAPI */ = {
+		AD4ED9231E72B9A200CBD889 /* WebView */ = {
 			isa = PBXGroup;
 			children = (
-				AD4ED90F1E72B86900CBD889 /* BaseWebAPI.swift */,
-				AD4ED9101E72B86900CBD889 /* UIWebAPI.swift */,
-				AD4ED9111E72B86900CBD889 /* WebAPIProtocol.swift */,
+				AD4ED9241E72B9A200CBD889 /* SLWebView.swift */,
 			);
-			path = WebAPI;
+			path = WebView;
 			sourceTree = "<group>";
 		};
 		AD58B6A71DAD178D000574A0 = {
@@ -88,11 +126,9 @@
 		AD58B6B21DAD178E000574A0 /* SLWebBridge */ = {
 			isa = PBXGroup;
 			children = (
+				AD4ED91A1E72B9A200CBD889 /* Source */,
 				AD4ED90E1E72B86900CBD889 /* WebAPI */,
-				AD4ED9051E728C7000CBD889 /* Extension */,
 				AD58B6CD1DAD1C1F000574A0 /* html */,
-				AD58B6CA1DAD1827000574A0 /* WebView */,
-				AD58B6C71DAD17E6000574A0 /* Bridge */,
 				AD58B6B31DAD178E000574A0 /* AppDelegate.swift */,
 				AD58B6B51DAD178E000574A0 /* ViewController.swift */,
 				AD58B6B71DAD178E000574A0 /* Main.storyboard */,
@@ -101,23 +137,6 @@
 				AD58B6BF1DAD178E000574A0 /* Info.plist */,
 			);
 			path = SLWebBridge;
-			sourceTree = "<group>";
-		};
-		AD58B6C71DAD17E6000574A0 /* Bridge */ = {
-			isa = PBXGroup;
-			children = (
-				AD4ED9031E728AF300CBD889 /* bridge.js */,
-				AD58B6D41DAD2418000574A0 /* WebBridge.swift */,
-			);
-			path = Bridge;
-			sourceTree = "<group>";
-		};
-		AD58B6CA1DAD1827000574A0 /* WebView */ = {
-			isa = PBXGroup;
-			children = (
-				AD58B6CB1DAD1833000574A0 /* SLWebView.swift */,
-			);
-			path = WebView;
 			sourceTree = "<group>";
 		};
 		AD58B6CD1DAD1C1F000574A0 /* html */ = {
@@ -192,7 +211,7 @@
 				AD58B6BB1DAD178E000574A0 /* Assets.xcassets in Resources */,
 				AD58B6D21DAD1C1F000574A0 /* test.html in Resources */,
 				AD58B6B91DAD178E000574A0 /* Main.storyboard in Resources */,
-				AD4ED9041E728AF300CBD889 /* bridge.js in Resources */,
+				AD4ED9271E72B9A200CBD889 /* bridge.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,12 +222,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD58B6CC1DAD1833000574A0 /* SLWebView.swift in Sources */,
-				AD4ED9121E72B86900CBD889 /* BaseWebAPI.swift in Sources */,
-				AD4ED9071E728C7F00CBD889 /* URLExtension.swift in Sources */,
-				AD58B6D51DAD2418000574A0 /* WebBridge.swift in Sources */,
+				AD4ED9251E72B9A200CBD889 /* BaseWebAPI.swift in Sources */,
+				AD4ED92A1E72B9A200CBD889 /* SLWebView.swift in Sources */,
+				AD4ED9291E72B9A200CBD889 /* URLExtension.swift in Sources */,
+				AD4ED9261E72B9A200CBD889 /* WebAPIProtocol.swift in Sources */,
 				AD58B6B61DAD178E000574A0 /* ViewController.swift in Sources */,
-				AD4ED9141E72B86900CBD889 /* WebAPIProtocol.swift in Sources */,
+				AD4ED9281E72B9A200CBD889 /* WebBridge.swift in Sources */,
+				AD4ED92C1E72B9CE00CBD889 /* DataWebAPI.swift in Sources */,
 				AD58B6B41DAD178E000574A0 /* AppDelegate.swift in Sources */,
 				AD4ED9131E72B86900CBD889 /* UIWebAPI.swift in Sources */,
 			);
