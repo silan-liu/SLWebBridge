@@ -12,8 +12,6 @@ SLWebBridge = {
             //destory the iframe
             i.parentNode.removeChild(i);
         }
-        
-        return returnValue;
     },
     
     invokeClientMethod: function(module, name, parameters, callback) {

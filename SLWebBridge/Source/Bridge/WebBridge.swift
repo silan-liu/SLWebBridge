@@ -130,7 +130,7 @@ class WebBridge: NSObject, UIWebViewDelegate {
                     
                     var jsonString = String(data: jsonData, encoding: String.Encoding.utf8)
                     
-                    jsonString = (jsonString != nil) ? jsonString : "{}"
+                    jsonString = jsonString ?? "{}"
                     
                     let script = String(format: "SLWebBridge.invokeWebMethod(%@,%@);", callbackId, jsonString!)
                     
