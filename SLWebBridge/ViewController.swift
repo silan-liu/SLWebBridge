@@ -17,7 +17,7 @@ class ViewController: UIViewController, UIWebViewDelegate {
         let uiApi = UIWebAPI()
         
         webView.registerWebAPI("ui", uiApi)
-        
+        webView.webViewDelegate = self;
         let path = Bundle.main.path(forResource: "test", ofType: "html")
 
         guard let p = path, p.characters.count > 0 else {
@@ -35,6 +35,11 @@ class ViewController: UIViewController, UIWebViewDelegate {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    func webViewDidStartLoad(_ webView: UIWebView) {
+        
+        print("webViewDidStartLoad")
     }
 }
 

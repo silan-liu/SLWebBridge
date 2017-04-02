@@ -10,6 +10,15 @@ import UIKit
 
 class SLWebView: UIWebView {
     var webBridge: WebBridge?
+    weak var webViewDelegate: UIWebViewDelegate? {
+        set {
+            webBridge?.webViewDelegate = newValue
+        }
+        
+        get {
+            return self.webViewDelegate
+        }
+    }
     
     override init(frame: CGRect) {
         super.init(frame: frame)
